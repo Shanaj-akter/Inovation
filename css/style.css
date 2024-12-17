@@ -1,0 +1,586 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+	/* overflow: hidden; */
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+	display: inline-block;
+}
+ul , ol{
+	list-style-type: none;
+}
+h1 h2 h3 h4 h5 h6 p{
+	margin: 0;
+	padding: 0;
+	line-height: 0.8;
+}
+/* all common css end */
+
+
+
+/* Nav part start */
+.navbar{
+	padding: 20px 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+
+
+}
+.nav-link {
+	margin: 0 15px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	color: #29313D;
+}
+.nav-link i{
+margin-left: 10px;
+}
+.contact h4 {
+	font-family: "Nunito", sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	color: white;
+	background: #FF5538;
+	padding: 15px 20px;
+	border-radius: 20px;
+}
+/* Nav part end */
+/* banner part start */
+#Banner{
+	background: url(../images/bannerprt.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-top: 100px;
+	padding-bottom: 200px;
+}
+.bannertext{
+	text-align: center;
+	padding-top: 100px;
+}
+.bannertext h1 {
+	font-family: "Poppins", sans-serif;
+	font-size: 64px;
+	font-weight: 700;
+	color: #29313D;
+	padding: 0 162px;
+	margin-bottom: 20px;
+	line-height: 130%;
+}
+.bannertext p {
+	font-family: "Nunito", sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #29313D;
+	padding: 0 284px;
+	line-height: 200%;
+	margin-bottom: 50px;
+}
+.bannertext a{
+	font-family: "Nunito", sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	color: #FF5538;
+	border: 2px solid #FF5538;
+	padding: 15px 20px;
+	border-radius: 20px;
+	margin-left: 20px;
+	transition: .4s;
+	text-transform: capitalize;
+}
+.bannertext a:hover{
+	background: #FF5538;	
+	color: white;
+}
+/* banner part end */
+/* Information part start */
+#Information{
+	padding-bottom: 100px;
+}
+.informationfuul h3{
+	font-family: "Poppins", sans-serif;
+	font-size: 26px;
+	font-weight: 600;
+	color: #29313D;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+.informationfuul p{
+	font-family: "Nunito", sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #29313D;
+	line-height: 200%;
+	padding-right: 20px;
+}
+/* Information part end */
+/* experience part start */
+.expriancetextpart p{
+	font-family: "Poppins", sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	color: #FF5538;
+	text-transform: capitalize;
+}
+.expriancetextpart h3{
+	font-family: "Poppins", sans-serif;
+	font-size: 40px;
+	font-weight: 600;
+	color: #29313D;
+	line-height: 140%;
+	text-transform: capitalize;
+	padding-bottom: 30px;
+}
+.expreancediv{
+	padding: 272px 0;
+	background: #D9D9D9;
+}
+.experiancetext{
+	padding: 50px 0;
+	background: #FBF3F0;
+}
+.experiancetext h3 {
+	font-family: "Poppins", sans-serif;
+	font-size: 36px;
+	font-weight: 600;
+	color: #29313D;
+	line-height: 140%;
+	padding-right: 92px;
+	margin-bottom: 25px;
+	margin-left: 30px;
+}
+.experiancetext p {
+	font-family: "Nunito", sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #29313D;
+	line-height: 200%;
+	margin-bottom: 30px;
+	padding-right: 169px;
+	margin-left: 30px;
+}
+.experiancetext  a{
+	font-family: "Nunito", sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	color: white;
+	background: #FF5538;
+	padding: 15px 20px;
+	border-radius: 20px;
+	margin-left: 30px;
+	text-transform: capitalize;
+}
+/* experience part end */
+/* market part start */
+#market{
+	padding-top: 80px;
+	padding-bottom: 70px;
+}
+.markettextpart p{
+	font-family: "Poppins", sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	color: #FF5538;
+	text-transform: capitalize;
+}
+.markettextpart h3{
+	font-family: "Poppins", sans-serif;
+	font-size: 40px;
+	font-weight: 600;
+	color: #29313D;
+	line-height: 140%;
+	text-transform: capitalize;
+	padding-bottom: 30px;
+}
+.Viewll a{
+	font-family: "Nunito", sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	color: #FF5538;
+	border: 2px solid #FF5538;
+	padding: 15px 20px;
+	border-radius: 20px;
+	margin-left: 53px;
+	margin-top: 85px;
+	transition: .4s;
+	text-transform: capitalize;
+}
+.Viewll a:hover{
+	background: #FF5538;	
+	color: white;
+}
+.marketdiv{
+	padding: 130px 0;
+	background: #D9D9D9;
+}
+.marketdivtwo{
+	padding: 130px 0;
+	background: #D9D9D9;
+}
+.marketdivtext h3{
+	font-family: "Poppins", sans-serif;
+	font-size: 28px;
+	font-weight: 600;
+	color: #29313D;
+	padding-top: 30px;
+	margin-left: 20px;
+	text-transform: capitalize;
+}
+.marketdivtext p{
+	font-family: "Nunito", sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	color: #FF5538;
+	text-transform: capitalize;
+	margin-left: 20px;
+}
+/* market part end */
+/* counter part start */
+#counter{
+	background: url(../images/bannerprt.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+.counterleft {
+	background: rgba(255, 255, 255, 0.557);
+	padding: 10px 15px 5px 15px;
+	margin-bottom: 40px;
+	margin-top: 60px;
+}
+.counterleft h3{
+	font-family: "Poppins", sans-serif;
+	font-size: 40px;
+	font-weight: 600;
+	color: #29313D;
+	text-align: center;
+}
+.counterleft p {
+	font-family: "Nunito", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #29313D;
+	text-align: center;
+	text-transform: capitalize;
+}
+.counterleftunder {
+	background: rgba(255, 255, 255, 0.557);
+	padding: 10px 15px 5px 15px;
+	
+}
+.counterleftunder h3{
+	font-family: "Poppins", sans-serif;
+	font-size: 40px;
+	font-weight: 600;
+	color: #29313D;
+	text-align: center;
+}
+.counterleftunder p{
+	font-family: "Nunito", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #29313D;
+	text-align: center;
+	text-transform: capitalize;
+}
+.countermiddle {
+	background: rgba(255, 255, 255, 0.557);
+	padding: 10px 15px 5px 15px;
+	margin-bottom: 40px;
+	margin-top: 60px;
+}
+.countermiddle h3{
+	font-family: "Poppins", sans-serif;
+	font-size: 40px;
+	font-weight: 600;
+	color: #29313D;
+	text-align: center;
+}
+.countermiddle p{
+	font-family: "Nunito", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #29313D;
+	text-align: center;
+	text-transform: capitalize;
+}
+.countermiddleunder {
+	background: rgba(255, 255, 255, 0.557);
+	padding: 10px 15px 5px 15px;
+}
+.countermiddleunder h3{
+	font-family: "Poppins", sans-serif;
+	font-size: 40px;
+	font-weight: 600;
+	color: #29313D;
+	text-align: center;
+}
+.countermiddleunder p{
+	font-family: "Nunito", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #29313D;
+	text-align: center;
+	text-transform: capitalize;
+}
+.counterright h3{
+	font-family: "Poppins", sans-serif;
+	font-size: 36px;
+	font-weight: 600;
+	color: #29313D;
+	line-height: 140%;
+	padding-right: 160px;
+	margin-bottom: 25px;
+	margin-left: 30px;
+	text-transform: capitalize;
+}
+.counterright p {
+	font-family: "Nunito", sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #29313D;
+	line-height: 200%;
+	margin-bottom: 30px;
+	padding-right: 68px;
+	margin-left: 30px;
+	text-transform: capitalize;
+}
+.counterright  a{
+	font-family: "Nunito", sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	color: white;
+	background: #FF5538;
+	padding: 15px 20px;
+	border-radius: 20px;
+	margin-left: 30px;
+	text-transform: capitalize;
+}
+/* counter part end */
+/* organigetion part start */
+#organiagetion{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.organigetiontop h3{
+	text-align: center;
+	font-family: "Poppins", sans-serif;
+	font-size: 48px;
+	font-weight: 600;
+	color: #29313D;
+	line-height: 140%;
+	padding: 0 130px;
+	margin-bottom: 70px;
+	text-transform: capitalize;
+}
+.orgimges{
+	padding: 30px 20px;
+	background: #FDF9F8;
+}
+.orgimges img{
+	width: 100%;
+}
+/* organigetion part end */
+/* customer part start */
+#customer{
+	background: url(../images/Our\ customer\ say.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.custoimges img{
+	width: 100%;
+}
+.custofull h3{
+	font-family: "Poppins", sans-serif;
+	font-size: 48px;
+	font-weight: 600;
+	color: #29313D;
+	text-transform: capitalize;
+	padding-bottom: 40px;
+}
+.custotopimges img{
+margin-right: 20px;
+padding-bottom: 40px;
+}
+.custofull p{
+	font-family: "Nunito", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #29313D;
+	text-transform: capitalize;
+	padding-bottom: 40px;
+	line-height: 180%;
+}
+.custobottom{
+	display: flex;
+}
+.custobottomtext h4{
+	font-family: "Poppins", sans-serif;
+	font-size: 36px;
+	font-weight: 600;
+	color: #29313D;
+	display: inline-block;
+}
+.customericons{
+	margin-left: 20px;
+}
+.customericons i{
+	margin-top: 5px;
+	margin-left: 10px;
+	padding: 15px 20px;
+	background: #FFDDD7;
+	border-radius: 5px;
+	transition: .4s;
+}
+.customericons i:hover{
+	color: white;
+background: #FF5538;
+}
+/* customer part end */
+/* project part start */
+#project{
+	background: url(../images/project.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.overlay{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: rgba(255, 215, 200, 0.52);
+}
+.projecttoptext p{
+	font-family: "Poppins", sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: #29313D;
+	text-transform: capitalize;
+}
+.projecttoptext h3{
+	font-family: "Poppins", sans-serif;
+	font-size: 36px;
+	font-weight: 600;
+	color: #29313D;
+	text-transform: capitalize;
+}
+.proright p {
+	font-family: "Nunito", sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	color: #FF5538;
+	border: 2px solid #FF5538;
+	padding: 10px 20px;
+	border-radius: 20px;
+	margin-left: 26px;
+	margin-top: 15px;
+	transition: .4s;
+	text-transform: capitalize;
+}
+.proright p:hover{
+	background: #FF5538;	
+	color: white;
+}
+.horigental{
+	height: 1px;
+	width: 100%;
+	background: #29313D;
+margin-top: 45px;
+}
+.projectlastpart p{
+	margin-top: 40px;
+	font-family: "Nunito", sans-serif;
+	font-size: 18px;
+	font-weight:400;
+	text-transform: capitalize;
+}
+/* project part end */
+/* last part start */
+#last{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.lastleft p{
+	padding-top:40px ;
+	font-family: "Nunito", sans-serif;
+	font-size: 14px;
+	font-weight:400;
+	line-height: 180%;
+	color: #29313D;
+	text-transform: capitalize;
+}
+.feature h3{
+	font-family: "Poppins", sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	color: #29313D;
+}
+.feature a {
+	display: block;
+	padding-top: 20px;
+	font-family: "Nunito", sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	color: #29313D;
+}
+.Products h3{
+	font-family: "Poppins", sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	color: #29313D;
+}
+.Products a {
+	display: block;
+	padding-top: 20px;
+	font-family: "Nunito", sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	color: #29313D;
+	text-transform: capitalize;
+}
+.Support h3{
+	font-family: "Poppins", sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	color: #29313D;
+}
+.Support a {
+	display: block;
+	padding-top: 20px;
+	font-family: "Nunito", sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	color: #29313D;
+	text-transform: capitalize;
+}
+/* last part end */
+/* copyright part start */
+#copyright{
+	padding-bottom: 100px;
+}
+.copy h3{
+	font-family: "Nunito", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #29313D;	
+}
+.issue p{
+	font-family: "Nunito", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #29313D;
+}
+.issue span{
+	margin-left: 20px;
+}
+/* copyright part end */

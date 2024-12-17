@@ -1,0 +1,410 @@
+/* // Extra large devices */
+@media (min-width: 1200px) {  }
+
+/* // Large devices  */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .nav-link {
+        font-size: 14px;
+    }
+    .bannertext h1 {
+        font-size: 52px;
+        line-height: 116%;
+    }
+    .bannertext p {
+        font-size: 14px;
+    }
+    .informationfuul h3 {
+        font-size: 22px;
+    }
+    .expriancetextpart h3 {
+        font-size: 28px;
+    }
+    .experiancetext {
+        padding: 143px 0;
+    }
+    .experiancetext h3 {
+        font-size: 21px;
+        margin-bottom: 10px;
+    }
+    .experiancetext p {
+        font-size: 13px;
+    }
+    .markettextpart h3 {
+        font-size: 34px;
+    }
+    .Viewll a {
+        font-size: 14px;
+        margin-left: 37px;
+    }
+    .counterright h3 {
+        margin-bottom: 10px;
+        font-size: 26px;
+    }
+    .counterright p {
+        font-size: 14px;
+    }
+    .organigetiontop h3 {
+        text-align: center;
+        font-size: 43px;
+        margin-bottom: 35px;
+    }
+    .custotopimges img {
+        margin-right: 10px;
+        padding-bottom: 40px;
+    }
+    .projecttoptext h3 {
+        font-size: 30px;
+    }
+    .proright p {
+        font-size: 14px;
+        margin-left: 18px;
+        margin-top: 35px;
+    }
+    .copy h3 {
+        font-size: 12px;
+    }
+    .issue span {
+        margin-left: 6px;
+    }
+}
+
+/* // Medium devices  */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .nav-link {
+        color: white;
+        text-align: center;
+        background-color: #FF5538;
+    }
+    .contact h4 {
+        display: inline-block;
+    }
+    .bannertext h1 {
+        font-size: 31px;
+        line-height: 116%;
+    }
+    .bannertext p {
+        font-size: 14px;
+        padding: 0 160px;
+    }
+    .informationfuul{
+        text-align: center;
+    }
+    .informationfuul h3 {
+        font-size: 22px;
+    }
+    .expriancetextpart h3 {
+        font-size: 28px;
+    }
+    .experiancetext {
+        padding: 75px 0;
+    }
+    .experiancetext h3 {
+        font-size: 21px;
+        margin-bottom: 10px;
+    }
+    .experiancetext p {
+        font-size: 13px;
+    }
+    .markettextpart h3 {
+        font-size: 23px;
+        margin-bottom: 0;
+    }
+    .Viewll a {
+        font-size: 14px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .counterright h3 {
+        margin-bottom: 10px;
+        font-size: 21px;
+        margin-top: 20px;
+    }
+    .counterright p {
+        font-size: 12px;
+        margin-bottom: 40px;
+    }
+    .organigetiontop h3 {
+        text-align: center;
+        font-size: 28px;
+        margin-bottom: 35px;
+    }
+    .customericons i {
+        margin-bottom: 20px;
+    }
+    .custotopimges img {
+        margin-right: 10px;
+        padding-bottom: 40px;
+    }
+    .projecttoptext h3 {
+        font-size: 30px;
+    }
+    .proright p {
+        font-size: 14px;
+        margin-left: 18px;
+        margin-top: 35px;
+        display: inline-block;
+    }
+    .lastleft{
+        text-align: center;
+    }
+    .lastleft p {
+        padding: 0 160px;
+        margin-top: 15px;
+    }
+    .feature h3 {
+        text-align: center;
+    }
+    .feature a {
+        text-align: center;
+    }
+    .Products h3 {
+        text-align: center;
+    }
+    .Products a {
+        text-align: center;
+    }
+    .Support h3 {
+        text-align: center;
+    }
+    .Support a {
+        text-align: center;
+    }
+    .copy h3 {
+        font-size: 12px;
+        text-align: center;
+    }
+    .issue span {
+        margin-left: 6px;
+    }
+    .issue{
+        text-align: center;
+    }
+ }
+
+/* // Small devices */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .nav-link {
+        color: white;
+        text-align: center;
+        background-color: #FF5538;
+    }
+    .contact h4 {
+        display: inline-block;
+    }
+    .bannertext h1 {
+        font-size: 31px;
+        line-height: 116%;
+        padding: 0;
+    }
+    .bannertext p {
+        font-size: 14px;
+        padding: 0 89px;
+    }
+    .informationfuul{
+        text-align: center;
+    }
+    .informationfuul h3 {
+        font-size: 22px;
+    }
+    .expriancetextpart h3 {
+        font-size: 28px;
+    }
+    .experiancetext {
+        padding: 75px 0;
+    }
+    .experiancetext h3 {
+        font-size: 21px;
+        margin-bottom: 10px;
+    }
+    .experiancetext p {
+        font-size: 13px;
+    }
+    .markettextpart h3 {
+        font-size: 23px;
+        margin-bottom: 0;
+    }
+    .Viewll a {
+        font-size: 14px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .counterright h3 {
+        margin-bottom: 10px;
+        font-size: 21px;
+        margin-top: 20px;
+    }
+    .counterright p {
+        font-size: 12px;
+        margin-bottom: 40px;
+    }
+    .organigetiontop h3 {
+        text-align: center;
+        font-size: 17px;
+        margin-bottom: 35px;
+    }
+    .customericons i {
+        margin-bottom: 20px;
+    }
+    .custotopimges img {
+        margin-right: 10px;
+        padding-bottom: 40px;
+    }
+    .projecttoptext h3 {
+        font-size: 30px;
+    }
+    .proright p {
+        font-size: 14px;
+        margin-left: 18px;
+        margin-top: 35px;
+        display: inline-block;
+    }
+    .lastleft{
+        text-align: center;
+    }
+    .lastleft p {
+        padding: 0 160px;
+        margin-top: 15px;
+    }
+    .feature h3 {
+        text-align: center;
+    }
+    .feature a {
+        text-align: center;
+    }
+    .Products h3 {
+        text-align: center;
+    }
+    .Products a {
+        text-align: center;
+    }
+    .Support h3 {
+        text-align: center;
+    }
+    .Support a {
+        text-align: center;
+    }
+    .copy h3 {
+        font-size: 12px;
+        text-align: center;
+    }
+    .issue span {
+        margin-left: 6px;
+    }
+    .issue{
+        text-align: center;
+    }
+ }
+
+/* // Extra small devices */
+@media (max-width: 575.98px) { 
+    .nav-link {
+        color: white;
+        text-align: center;
+        background-color: #FF5538;
+    }
+    .contact h4 {
+        display: inline-block;
+    }
+    .bannertext h1 {
+        font-size: 31px;
+        line-height: 116%;
+        padding: 0;
+    }
+    .bannertext p {
+        font-size: 14px;
+        padding: 0 89px;
+    }
+    .informationfuul{
+        text-align: center;
+    }
+    .informationfuul h3 {
+        font-size: 22px;
+    }
+    .expriancetextpart h3 {
+        font-size: 28px;
+    }
+    .experiancetext {
+        padding: 75px 0;
+    }
+    .experiancetext h3 {
+        font-size: 21px;
+        margin-bottom: 10px;
+    }
+    .experiancetext p {
+        font-size: 13px;
+    }
+    .markettextpart h3 {
+        font-size: 23px;
+        margin-bottom: 0;
+    }
+    .Viewll a {
+        font-size: 14px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .counterright h3 {
+        margin-bottom: 10px;
+        font-size: 21px;
+        margin-top: 20px;
+    }
+    .counterright p {
+        font-size: 12px;
+        margin-bottom: 40px;
+    }
+    .organigetiontop h3 {
+        text-align: center;
+        font-size: 17px;
+        margin-bottom: 35px;
+    }
+    .customericons i {
+        margin-bottom: 20px;
+    }
+    .custotopimges img {
+        margin-right: 10px;
+        padding-bottom: 40px;
+    }
+    .projecttoptext h3 {
+        font-size: 30px;
+    }
+    .proright p {
+        font-size: 14px;
+        margin-left: 18px;
+        margin-top: 35px;
+        display: inline-block;
+    }
+    .lastleft{
+        text-align: center;
+    }
+    .lastleft p {
+        padding: 0 160px;
+        margin-top: 15px;
+    }
+    .feature h3 {
+        text-align: center;
+    }
+    .feature a {
+        text-align: center;
+    }
+    .Products h3 {
+        text-align: center;
+    }
+    .Products a {
+        text-align: center;
+    }
+    .Support h3 {
+        text-align: center;
+    }
+    .Support a {
+        text-align: center;
+    }
+    .copy h3 {
+        font-size: 12px;
+        text-align: center;
+    }
+    .issue span {
+        margin-left: 6px;
+    }
+    .issue{
+        text-align: center;
+    }
+ }
